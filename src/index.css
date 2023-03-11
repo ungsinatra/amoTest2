@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
+@import url('./fonts/fonts.css');
+@import url('./vendor/normalize.css');
+@import url('./blocks/page/page.css');
+
+@import url('./blocks/header/header.css');
+@import url('./blocks/header/__logo-items/header__logo-items.css');
+@import url('./blocks/header/__logo/header__logo.css');
+@import url('./blocks/header/__logo-subtext/header__logo-subtext.css');
+@import url('./blocks/header/__items/header__items.css');
+
+/* nav */
+
+@import url('./blocks/nav/nav.css');
+@import url('./blocks/nav/__links/nav__links.css');
+@import url('./blocks/nav/__link-link/nav__link-link.css');
+@import url('./blocks/nav/__link/nav__link.css');
+@import url('./blocks/nav/__link-link/_status/nav__link-link_status_off.css');
+@import url('./blocks/nav/__link-link/_status/nav__link-link_status_off.css');
+/* socials */
+@import url('./blocks/socials/socials.css');
+@import url('./blocks/socials/__list-icon/socials__list-icon.css');
+@import url('./blocks/socials/__list/socials__list.css');
+@import url('./blocks/socials/__lists/socials__lists.css');
+@import url('./blocks/socials/__phone/socials__phone.css');

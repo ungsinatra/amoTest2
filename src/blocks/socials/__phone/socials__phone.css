@@ -1,0 +1,16 @@
+.socials__phone {
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  color: white;
+}
+
+@media screen and (max-width:1020px){
+  .socials__phone{
+    font-size: 14px;
+  }
+}

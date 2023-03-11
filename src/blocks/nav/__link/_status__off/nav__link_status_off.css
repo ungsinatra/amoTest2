@@ -1,0 +1,6 @@
+
+@media screen and (max-width:650px) {
+    .nav__link_status_off{
+    display: none;
+}
+}

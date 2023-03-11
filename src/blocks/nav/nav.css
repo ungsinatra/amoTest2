@@ -1,0 +1,28 @@
+.nav {
+  max-width: 503px;
+  width: 100%;
+}
+@media screen and (max-width:1020px) {
+  .nav{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+}
+
+@media screen and (max-width:650px   ) {
+  .nav{
+    padding: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+
+}
+@media screen and (max-width:420px ) {
+  .nav{
+    padding: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+
+}
