@@ -1,0 +1,20 @@
+.main__text {
+    max-width: 275px;
+  margin: 30px 0 0 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  /* light text */
+
+  color: #e4e5ea;
+}
+
+@media screen and (max-width: 720px) {
+  .main__text{
+      max-width: 100%;
+      margin: 15px 0 0 0;
+  }
+}

@@ -9,7 +9,9 @@ const Header = () => {
 
     return (
         <header className='header'>
-
+            <div className='blue-ball'></div>
+            <div className='red-ball'></div>
+            <div className='blue-ambient'></div>
             <img src={logo} className='header__logo' alt="Логотип шапки" />
 
             <div className='header__items'>

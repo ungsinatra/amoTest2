@@ -24,3 +24,53 @@
 @import url('./blocks/socials/__list/socials__list.css');
 @import url('./blocks/socials/__lists/socials__lists.css');
 @import url('./blocks/socials/__phone/socials__phone.css');
+
+
+/* main */
+
+@import url('./blocks/main/main.css');
+@import url('./blocks/main/__item-rigth/main__item-rigth.css');
+@import url('./blocks/main/__item-left/main__item-left.css');
+@import url('./blocks/main/__items/main__items.css');
+@import url('./blocks/main/__text/main__text.css');
+@import url('./blocks/main/__title/main__title.css');
+
+
+@import url('./blocks/table/__button/table__button.css');
+@import url('./blocks/table/__list-text/table__list-text.css');
+@import url('./blocks/table/__lists/table__lists.css');
+@import url('./blocks/table/__title/table__title.css');
+@import url('./blocks/table/__title/_use/table__title_use_gradient.css');
+@import url('./blocks/main/__subtitle/main__subtitle.css');
+@import url('./blocks/table/table.css');
+@import url('./blocks/table/__list/table__list.css');
+@import url('./blocks/table/__buttons/table__buttons.css');
+@import url('./blocks/table/__list-arrow/table__list-arrow.css');
+/* footer */
+
+@import url('./blocks/footer/footer.css');
+@import url('./blocks/footer/__items/footer__items.css');
+@import url('./blocks/footer/__about/footer__about.css');
+@import url('./blocks/footer/__about-lists/footer__about-lists.css');
+@import url('./blocks/footer/__about-list/footer__about-list.css');
+@import url('./blocks/footer/__contact/footer__contact.css');
+@import url('./blocks/footer/__contact-lists/footer__contact-list.css');
+@import url('./blocks/footer/__contact-list/footer__contact-list.css');
+@import url('./blocks/footer/__contact-list-icon/footer__list-icon.css');
+@import url('./blocks/footer/__menu-items/footer__menu-items.css');
+@import url('./blocks/footer/__menu/footer__menu.css');
+@import url('./blocks/footer/__menu-items/footer__menu-items.css');
+@import url('./blocks/footer/__menu-lists/footer__menu-lists.css');
+@import url('./blocks/footer/__menu__list/footer__menu-list.css');
+@import url('./blocks/footer/__title/footer__title.css');
+@import url('./blocks/footer/__text/footer__text.css');
+@import url('./blocks/footer/__list-link/footer__list-link.css');
+@import url('./blocks/footer/__privacy-link/footer__privacy-link.css');
+@import url('./blocks/footer/__title/_use/footer__title_use_rigth.css');
+/* rubbish */
+@import url('./blocks/rubbish/blue-ambient.css');
+@import url('./blocks/rubbish/blue-ball.css');
+@import url('./blocks/rubbish/red-ball.css');
+@import url('./blocks/rubbish/red-ambient');
+@import url('./blocks/rubbish/red-small-ball.css');
+@import url('./blocks/rubbish/mobile');

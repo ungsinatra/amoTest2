@@ -1,0 +1,16 @@
+.footer__privacy-link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #e4e5ea;
+}
+
+@media screen and (max-width:420px) {
+  .footer__privacy-link{
+    text-align: start;
+  }
+}

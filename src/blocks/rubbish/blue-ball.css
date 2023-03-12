@@ -1,0 +1,38 @@
+.blue-ball {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  /* left: 900px; */
+  top: -2px;
+  /* right:741px; */
+  right: 39%;
+  z-index: 0;
+  background: radial-gradient(
+      64% 64% at 27.25% 26.5%,
+      rgba(236, 208, 255, 0.64) 0%,
+      rgba(161, 93, 207, 0.24) 59.67%,
+      rgba(118, 49, 164, 0.208) 78.59%,
+      rgba(86, 24, 128, 0.232) 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  box-shadow: 3px 6px 27px -10px rgba(177, 118, 217, 0.25);
+  filter: blur(5px);
+
+  border-radius: 50%;
+  /* background-image: url("../../images/am/purple ball.svg"); */
+  background-size: auto;
+  filter: blur(5px);
+  backdrop-filter: blur(2px);
+}
+
+
+/* @media screen and(max-width:1020px) {
+    .blue-ball{
+        display: none;
+    }
+} */
+@media screen and (max-width:420px) {
+  .blue-ball{
+      display: none;
+  }
+}

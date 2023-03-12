@@ -1,0 +1,17 @@
+.footer__about{
+}
+
+@media screen and (max-width:670px) {
+    .footer__about{
+        max-width: 90%;
+        width: 100%;
+       flex-direction: column;
+       align-items: center;
+    }
+}
+@media screen and (max-width:420px) {
+    .footer__about{
+        max-width: 95%;
+    
+    }
+}

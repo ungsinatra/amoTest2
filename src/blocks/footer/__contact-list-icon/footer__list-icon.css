@@ -1,0 +1,13 @@
+.footer__contact-list-ican{
+    width: 18px;
+    margin-left: 13px;
+}
+@media screen and (max-width:670px) {
+    .footer__contact-list-ican{
+    margin-left: 10px;
+    }
+    .footer__contact-list-ican:nth-child(1){
+        margin-left: 0;
+    }
+
+}

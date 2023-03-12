@@ -1,0 +1,19 @@
+.main__item-left{
+    position: relative;
+    max-width: 305px;
+    width: 100%;
+}
+@media screen and (max-width: 720px) {
+    .main__item-left{
+        z-index: 2;
+        max-width: 90%;
+        width: 100%;        
+    }
+}
+@media screen and (max-width: 420px) {
+    .main__item-left{
+        z-index: 2;
+        max-width: 272px;
+        width: 100%;        
+    }
+}

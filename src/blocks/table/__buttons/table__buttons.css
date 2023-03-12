@@ -1,0 +1,16 @@
+.table__buttons{
+    max-width:100%;
+    display:flex;
+    justify-content:flex-end;
+}
+@media screen and (max-width: 720px) {
+    .table__buttons{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .table__buttons{
+        display: none;
+    }
+}

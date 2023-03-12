@@ -18,3 +18,16 @@
   font-family: 'Inter'; 
   font-weight: 900; 
 } 
+
+@font-face { 
+  src: url('./Montserrat-Medium.ttf') format('ttf'); 
+  font-family: 'Montserrat'; 
+  font-weight: 500; 
+} 
+
+@font-face { 
+  src: url('./Montserrat-Regular.ttf') format('ttf'); 
+  font-family: 'Montserrat'; 
+  font-weight: 400; 
+} 
+

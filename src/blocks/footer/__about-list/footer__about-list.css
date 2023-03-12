@@ -1,0 +1,7 @@
+.footer__about-list{
+    list-style: none;
+    margin-top: 10px;
+}
+.footer__about-list:first-child{
+    margin-top: 0;
+}

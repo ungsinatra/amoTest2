@@ -1,0 +1,25 @@
+.footer__title {
+  margin: 0 0 20px 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #656566;
+}
+.footer__title:ch{
+ text-align: right;   
+}
+@media screen and (max-width:670px) {
+    .footer__title{
+        margin: 20px  0 10px 0 ;
+    }
+}
+@media screen and (max-width:420px) {
+  .footer__title{
+      margin: 20px  0 20px 0 ;
+  }
+  
+}

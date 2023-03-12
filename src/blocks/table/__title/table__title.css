@@ -1,0 +1,23 @@
+.table__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: right;
+
+  /* light text */
+
+  color: #e4e5ea;
+}
+@media screen and (max-width: 720px) {
+  .table__title {
+      margin-top: 60px;    
+      text-align: start;     
+  }
+}
+@media screen and (max-width: 420px) {
+  .table__title {
+      margin-top: 45px;    
+  }
+}

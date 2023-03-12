@@ -1,0 +1,9 @@
+.footer__title_use_rigth{
+    text-align: right;
+}
+
+@media screen and (max-width:670px) {
+    .footer__title_use_rigth{
+        text-align: start;
+    }
+}

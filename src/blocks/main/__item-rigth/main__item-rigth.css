@@ -1,0 +1,20 @@
+.main__item-rigth{
+    max-width: 362px;
+    width: 100%;
+}
+@media screen and (max-width: 720px) {
+    .main__item-rigth{
+        z-index: 2;
+        max-width: 90%;
+        width: 100%;
+        
+    }
+}
+@media screen and (max-width: 420px) {
+    .main__item-rigth{
+        z-index: 2;
+        max-width: 272px;
+        width: 100%;
+        
+    }
+}

@@ -1,0 +1,24 @@
+.footer__contact{
+    max-width: 345px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+@media screen and (max-width:900px) {
+    .footer__contact{
+        max-width: 244px;
+        width: 100%;
+    }
+}
+@media screen and (max-width:670px) {
+    .footer__contact{
+        max-width: 90%;
+        justify-content: flex-start;
+    }
+}
+@media screen and (max-width:420px) {
+    .footer__contact{
+        max-width: 95%;
+    }
+}

@@ -1,0 +1,15 @@
+.blue-ambient {
+  position: absolute;
+  width: 259px;
+  height: 259px;
+  right:  800px;
+  top: -72px;
+  background: #833ab4;
+  opacity: 0.5;
+  filter: blur(196px);
+}
+@media screen and (max-width:420px) {
+  .blue-ambient{
+      display: none;
+  }
+}
